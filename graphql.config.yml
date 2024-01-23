@@ -1,0 +1,2 @@
+schema: https://myaccount-uat.altheqa.com/api/at-mstd/graphql
+documents: '**/*.graphql'

@@ -1,0 +1,102 @@
+{ 
+  "/dx-agg-discount/*": {
+  "_comment": "Try This",
+  "target": "https://dijta-uat.altheqa.com/dx-agg-discount/",
+  "secure": false,
+  "logLevel": "debug",
+  "changeOrigin": true,
+  "pathRewrite": {
+    "^/dx-agg-discount": ""
+  }
+},
+  "/dx-qms/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-qms/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/dx-qms": ""
+    },
+    "changeOrigin": true
+  },
+  "/at-user/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/at-user/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/at-user": ""
+    },
+    "changeOrigin": true
+  },
+  "/dx-dms/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-dms/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/dx-dms": ""
+    },
+    "changeOrigin": true
+  },
+  "/at-mstd/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/at-mstd/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/at-mstd": ""
+    }
+  },
+  "/dx-captcha/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-captcha/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/dx-captcha": ""
+    }
+  },
+  "/at-qms/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/at-qms/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/at-qms": ""
+    }
+  },
+  "/dx-ccm/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-ccm/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/dx-ccm": ""
+    }
+  },
+  "/dx-elm/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-elm/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/dx-elm": ""
+    }
+  },
+  "/dx-dijta-api/*": {
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-dijta-api/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/dx-dijta-api": ""
+    }
+  }
+}
