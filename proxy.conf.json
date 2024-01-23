@@ -1,14 +1,14 @@
-{ 
+{
   "/dx-agg-discount/*": {
-  "_comment": "Try This",
-  "target": "https://dijta-uat.altheqa.com/dx-agg-discount/",
-  "secure": false,
-  "logLevel": "debug",
-  "changeOrigin": true,
-  "pathRewrite": {
-    "^/dx-agg-discount": ""
-  }
-},
+    "_comment": "Try This",
+    "target": "https://dijta-uat.altheqa.com/dx-agg-discount/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/dx-agg-discount": ""
+    }
+  },
   "/dx-qms/*": {
     "_comment": "Try This",
     "target": "https://dijta-uat.altheqa.com/dx-qms/",

@@ -1,12 +1,16 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {Routes, RouterModule} from '@angular/router';
 
-import { GraphQLPage } from './graph-ql.page';
+import {GraphQLPage} from './graph-ql.page';
+import {AlTheqaMasterDataResolver} from "./Resolver/AlTheqaMasterData/al-theqa-master-data.resolver";
 
 const routes: Routes = [
   {
     path: '',
-    component: GraphQLPage
+    component: GraphQLPage,
+    resolve: {
+      masterData: AlTheqaMasterDataResolver
+    }
   }
 ];
 
@@ -14,4 +18,5 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class GraphQLPageRoutingModule {}
+export class GraphQLPageRoutingModule {
+}

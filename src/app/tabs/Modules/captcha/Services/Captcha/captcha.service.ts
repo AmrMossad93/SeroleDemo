@@ -1,8 +1,10 @@
 import {Injectable} from '@angular/core';
-import {DataService} from "../../../../../../core/services/data/data.service";
+
 import {Observable} from "rxjs";
-import {Vehicle_Insurance_API_Name} from "../../DTO/API/Vehicle_Insurance_API_Name";
-import {ICaptcha} from "../../DTO/Interfaces/Captcha/captcha";
+import {DataService} from "../../../../../Core/Service/Data/data.service";
+import {ICaptcha} from "../../DTO/Interface/Captcha/captcha";
+import {CAPTCHA_API_NAME} from "../../DTO/Interface/API/CAPTCHA_API_NAME";
+
 
 @Injectable({
   providedIn: 'root'
@@ -13,6 +15,6 @@ export class CaptchaService {
   }
 
   getCaptcha(): Observable<ICaptcha> {
-    return this.dataService.get(Vehicle_Insurance_API_Name.getCaptcha);
+    return this.dataService.get(CAPTCHA_API_NAME.getCaptcha);
   }
 }
