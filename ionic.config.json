@@ -1,0 +1,7 @@
+{
+  "name": "SeroleDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
